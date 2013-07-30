@@ -1,0 +1,126 @@
+    1  pwd
+    2  ls
+    3  cd cmdline_talk/
+    4  ls
+    5  cd demo_1
+    6  ls
+    7  cd contacts/
+    8  ls
+    9  cat Bob_Traub.txt 
+   10  cat Bob_Traub.txt 
+   11  man grep
+   12  grep "@" *
+   13  grep "@" *
+   14  man grep
+   15  man grep
+   16  history c
+   17  pwd
+   18  ls
+   19  cd cmdline_talk/
+   20  ls
+   21  cd demo_1
+   22  ls
+   23  cd contacts/
+   24  ls
+   25  less Bob_Traub.txt 
+   26  cat Bob_Traub.txt 
+   27  man grep
+   28  ls
+   29  ls
+   30  grep "@" Bob_Traub.txt  Galia_Traub.txt James_T_Kirk.txt 
+   31  grep "@" *
+   32  cat Bob_Traub.txt 
+   33  grep "@" Bob_Traub.txt 
+   34  grep "@" *
+   35  grep "@" *
+   36  man grep
+   37  grep -E "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" *
+   38  man grep
+   39  grep -E -h "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" *
+   40  grep -Eh "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" *
+   41  grep -Eh "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" *
+   42  grep -Eh "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" * > emails.txt
+   43  ls
+   44  cat emails.txt 
+   45  pwd
+   46  cd ..
+   47  pwd
+   48  cd ..
+   49  pwd
+   50  ls
+   51  cd demo_2
+   52  ls
+   53  ls *
+   54  ls *spades.png
+   55  mkdir oonly_spades
+   56  ls
+   57  mv -R oonly_spades/ only_spades/
+   58  mv -r oonly_spades/ only_spades/
+   59  mv  oonly_spades/ only_spades/
+   60  ls
+   61  history
+   62  ls *spades.png
+   63  ls *spades.png
+   64  ls *spades.png
+   65  man cp
+   66  cp *spades.png only_spades/
+   67  pwd
+   68  ls
+   69  ls only_spades/
+   70  history
+   71  history > ../bash_history_demo1_2.txt
+   72  pwd
+   73  cd ..
+   74  ls
+   75  cd demo_3/
+   76  ls
+   77  cd cards/
+   78  ls
+   79  cd ../
+   80  ls
+   81  cd cards/
+   82  pwd
+   83  vi sort.sh
+   84  ls
+   85  sh sort.sh 
+   86  ./sort.sh
+   87  ls -l sort.sh 
+   88  ls -l sort.sh 
+   89  cd cmdline_talk/
+   90  ls -l sort.sh 
+   91  ls -l sort.sh 
+   92  chmod u+x sort.sh 
+   93  ls -l sort.sh 
+   94  ./sort.sh 
+   95  ./sort.sh 
+   96  vi sort.sh 
+   97  ./sort.sh 
+   98  vi sort.sh 
+   99  ./sort.sh goodbye_world
+  100  vi sort.sh 
+  101  ./sort.sh flowers
+  102  vi sort.sh 
+  103  ./sort.sh flowers
+  104  vi sort.sh 
+  105  ./sort.sh flowers
+  106  vi sort.sh 
+  107  ls
+  108  vi sort.sh flowers
+  109  ls
+  110  ./sort.sh flowers
+  111  ls
+  112  vi sort.sh flowers
+  113  ls
+  114  vi sort.sh clubs
+  115  ./sort.sh clubs
+  116  ls
+  117  ls only_clubs/
+  118  ./sort.sh diamonds
+  119  ./sort.sh hearts
+  120  ./sort.sh joker
+  121  ./sort.sh spades
+  122  ls | grep "only"
+  123   grep "only" .
+  124   grep "only" *
+  125  python
+  126  history > history.txt
